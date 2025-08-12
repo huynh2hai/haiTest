@@ -1,0 +1,14 @@
+{
+  "@plentymarkets/generator-plugin": {
+    "promptValues": {
+      "type": "widget"
+    },
+    "answers": {
+      "name": "haiTest",
+      "author": "Hai Huynh",
+      "type": "widget",
+      "description": "widget",
+      "version": "0.0.1"
+    }
+  }
+}

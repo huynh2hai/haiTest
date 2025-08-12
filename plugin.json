@@ -1,0 +1,11 @@
+{
+    "name"              :   "haiTest",
+    "namespace"         :   "haiTest",
+    "type"              :   "widget",
+    "version"           :   "0.0.1",
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "description"       :   "widget",
+    "author"            :   "Hai Huynh",
+    "authorIcon"        :   "icon_author_xs.png",
+    "serviceProvider"   :   "haiTest\\Providers\\haiTestServiceProvider"
+}
