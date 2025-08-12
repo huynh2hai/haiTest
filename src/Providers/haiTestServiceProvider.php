@@ -28,10 +28,11 @@ class haiTestServiceProvider extends ServiceProvider
      */
     public function boot(Twig $twig, Dispatcher $eventDispatcher)
     {
+
         $eventDispatcher->listen('IO.Resources.Import', function (ResourceContainer $container)
         {
             // The script is imported in the Footer.twig of plentyShop LTS
-            $container->addScriptTemplate('Theme::content.SingleItemScript');
-        }, 9);
+            $container->addScriptTemplate('haiTest::bodyEndScript');
+        });
     }
 }
