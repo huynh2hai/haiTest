@@ -25,7 +25,8 @@ class haiTestServiceProvider extends ServiceProvider
         // This event listener adds the content from our Twig template
         // to the 'IO.tpl.body.end' container. This container is rendered
         // just before the closing </body> tag in the storefront.
-        $eventDispatcher->listen('IO.tpl.body.end', function (Twig $twig) {
+//        $eventDispatcher->listen('IO.tpl.body.end', function (Twig $twig) {
+        $eventDispatcher->listen('IO.Resources.Import', function (Twig $twig) {
             return $twig->render('haiTest::bodyEndScript');
         });
     }

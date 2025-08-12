@@ -1,7 +1,7 @@
 {
     "name"              :   "haiTest",
     "namespace"         :   "haiTest",
-    "type"              :   "widget",
+    "type"              :   "template",
     "version"           :   "0.0.1",
     "pluginIcon"        :   "icon_plugin_xs.png",
     "description"       :   "widget",
