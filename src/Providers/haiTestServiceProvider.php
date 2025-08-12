@@ -32,6 +32,6 @@ class haiTestServiceProvider extends ServiceProvider
         {
             // The script is imported in the Footer.twig of plentyShop LTS
             $container->addScriptTemplate('Theme::content.SingleItemScript');
-        }, self::PRIORITY);
+        }, 9);
     }
 }
