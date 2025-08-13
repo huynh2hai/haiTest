@@ -9,7 +9,8 @@
           "required": true,
           "label": "Config.integrationKey",
           "options": {
-            "defaultValue": ""
+            "defaultValue": "",
+            "tooltip": "Config.integrationKey.tooltip"
           }
         }
       }
