@@ -1,22 +1,15 @@
 {
   "formatVersion": 1,
   "menu": {
-    "global": {
-      "label": "Config.global",
-      "fullWidth": true,
+    "Config.SettingsTab": {
+      "label": "Config.SettingsTab",
       "formFields": {
-        "global.container": {
-          "type": "verticalContainer",
-          "label": "Config.globalContainerLabel",
+        "integrationKey": {
+          "type": "inputText",
+          "required": true,
+          "label": "Config.integrationKey",
           "options": {
-            "containerEntries":
-            {
-              "global.container.apiKey": {
-                "type": "inputText",
-                "label": "Config.globalContainerApiKeyLabel",
-                "required": false
-              }
-            }
+            "defaultValue": ""
           }
         }
       }
